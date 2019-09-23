@@ -1,0 +1,25 @@
+.Person {
+  width: 60%;
+  margin: 16px auto;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 3px 3px 5px 2px darkgray;
+}
+
+.deleteButton {
+  background-color: lightcoral;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 5px;
+  width: 30%;
+  color: black;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .Person {
+    width: 400px;
+  }
+}

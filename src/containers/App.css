@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toggleButton {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: #222;
+  box-shadow: 3px 3px 5px 2px darkgray;
+  margin-left: -20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
